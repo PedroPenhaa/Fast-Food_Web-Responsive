@@ -96,5 +96,54 @@ main{
             }
         }
     }
-   
+   #services{
+    padding-bottom: 10rem;
+    background-color: #1c1819;
+    .img-container{
+        position: relative;
+        height: 70rem;
+        img{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+    .container{
+        position: relative;
+        margin-top: -20rem;
+        color: #fff;
+        z-index: 1;
+        .list{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 3rem;
+            .card{
+                padding: 3rem ;
+                background-color: #333;
+                .title{
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                    font-size: 1.5rem;
+                    text-transform: capitalize;
+                }
+                .number{
+                    width: 8rem;
+                    height: 8rem;
+                    background-color: var(--primary-color);
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 3rem;
+                }
+            }
+        }
+    }
+   }
+
+
+
 }
