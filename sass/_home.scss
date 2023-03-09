@@ -155,7 +155,56 @@ main{
         }
     }
    }
+   #menu{
+        padding: 3.5rem 0;
+        .container{
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        h1{
+            margin-bottom: 2rem;
+            font-size: 2.25rem;
+            line-height: 1.1;
+            font-weight: bold;
+        }
+        p{
+            max-width: 70%;
+        }
+        .list{
+            margin-top: 2rem;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 12px;
+            .card{
+                height: 26rem;
+                color: #fff;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .card1{
+                background-image: url('../img/menu1.jpg');
+            }
+            .card2{
+                background-image: url('../img/menu2.jpg');
+            }
+            .card3{
+                background-image: url('../img/menu3.jpg');
+            }
+            .card4{
+                background-image: url('../img/menu4.jpg');
+            }
+            .card5{
+                background-image: url('../img/menu5.jpg');
+            }
+            .card6{
+                background-image: url('../img/menu6.jpg');
+            }
 
+        }
+   }
 
 
 }
