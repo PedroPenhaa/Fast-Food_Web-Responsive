@@ -197,10 +197,10 @@ main{
                         font-size: 1.25rem;
                         font-weight: bold;
                     }
-                    .button{
+                    button{
                         margin: 0 2rem;
                         padding: 1rem 3rem;
-                        background-color: var(--primary-color);
+                        background: var(--primary-color);
                         color: #fff;
                         border: none;
                         outline: none;
@@ -210,7 +210,7 @@ main{
                         font-weight: bold;
                         text-transform: uppercase;
                     }
-                    .buton:hover{
+                    button:hover{
                         background-color: var(--light-red);
                         cursor: pointer;
                     }
