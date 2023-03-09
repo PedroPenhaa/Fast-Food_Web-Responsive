@@ -183,6 +183,42 @@ main{
                 background-position: center;
                 background-size: cover;
                 background-repeat: no-repeat;
+                .info{
+                    width: 50%;
+                    height: 100%;
+                    padding: 1rem;
+                    background-color: rgba(0,0,0,0.4);
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    gap: 20px;
+                    .price{
+                        color: var(--light-red);
+                        font-size: 1.25rem;
+                        font-weight: bold;
+                    }
+                    .button{
+                        margin: 0 2rem;
+                        padding: 1rem 3rem;
+                        background-color: var(--primary-color);
+                        color: #fff;
+                        border: none;
+                        outline: none;
+                        border-radius: 3rem;
+                        font-size: 0.875rem;
+                        letter-spacing: 1px;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                    }
+                    .buton:hover{
+                        background-color: var(--light-red);
+                        cursor: pointer;
+                    }
+                }
+                h2{
+                    font-size: 1.5rem;
+                    font-weight: bold;
+                }
             }
             .card1{
                 background-image: url('../img/menu1.jpg');
