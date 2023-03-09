@@ -129,6 +129,18 @@ main{
                     font-size: 1.5rem;
                     text-transform: capitalize;
                 }
+                p{
+                    margin: 1rem 0 2rem;
+                    color: #b3b3b3;
+                    font-style: italic;
+                }
+                a{
+                    text-transform: uppercase;
+                    border-bottom: 2px solid #FFF;
+                }
+                a:hover{
+                    color: #b3b3b3;
+                }
                 .number{
                     width: 8rem;
                     height: 8rem;
